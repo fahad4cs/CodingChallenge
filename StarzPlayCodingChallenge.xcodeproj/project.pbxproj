@@ -1,0 +1,1116 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182982022B10E9ED00A2F631 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182982012B10E9ED00A2F631 /* AppDelegate.swift */; };
+		182982042B10E9ED00A2F631 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182982032B10E9ED00A2F631 /* SceneDelegate.swift */; };
+		182982192B10E9F100A2F631 /* StarzPlayCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182982182B10E9F100A2F631 /* StarzPlayCodingChallengeTests.swift */; };
+		182982232B10E9F100A2F631 /* StarzPlayCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182982222B10E9F100A2F631 /* StarzPlayCodingChallengeUITests.swift */; };
+		182982252B10E9F100A2F631 /* StarzPlayCodingChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182982242B10E9F100A2F631 /* StarzPlayCodingChallengeUITestsLaunchTests.swift */; };
+		18F7D5542B10F6DB009FA4A1 /* MovieListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D53C2B10F6DA009FA4A1 /* MovieListResponseModel.swift */; };
+		18F7D5552B10F6DB009FA4A1 /* SeasonDetailRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D53D2B10F6DA009FA4A1 /* SeasonDetailRequestModel.swift */; };
+		18F7D5562B10F6DB009FA4A1 /* SeasonDetailResponceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D53E2B10F6DA009FA4A1 /* SeasonDetailResponceModel.swift */; };
+		18F7D5572B10F6DB009FA4A1 /* MovieListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D53F2B10F6DA009FA4A1 /* MovieListRequestModel.swift */; };
+		18F7D5582B10F6DB009FA4A1 /* MovieListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5412B10F6DA009FA4A1 /* MovieListRequest.swift */; };
+		18F7D5592B10F6DB009FA4A1 /* MovieListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5422B10F6DA009FA4A1 /* MovieListRepository.swift */; };
+		18F7D55E2B10F6DB009FA4A1 /* RepositoryFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D54B2B10F6DA009FA4A1 /* RepositoryFactoryProtocol.swift */; };
+		18F7D55F2B10F6DB009FA4A1 /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D54C2B10F6DA009FA4A1 /* RepositoryProtocol.swift */; };
+		18F7D5722B10F6FD009FA4A1 /* StoryBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5652B10F6FD009FA4A1 /* StoryBoarding.swift */; };
+		18F7D5732B10F6FD009FA4A1 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5662B10F6FD009FA4A1 /* Common.swift */; };
+		18F7D5742B10F6FD009FA4A1 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5682B10F6FD009FA4A1 /* Label.swift */; };
+		18F7D5752B10F6FD009FA4A1 /* UIVeiwController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5692B10F6FD009FA4A1 /* UIVeiwController.swift */; };
+		18F7D5762B10F6FD009FA4A1 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D56A2B10F6FD009FA4A1 /* DataExtension.swift */; };
+		18F7D5772B10F6FD009FA4A1 /* Encodeable-Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D56B2B10F6FD009FA4A1 /* Encodeable-Extenstion.swift */; };
+		18F7D5782B10F6FD009FA4A1 /* StringExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D56C2B10F6FD009FA4A1 /* StringExtenstion.swift */; };
+		18F7D5792B10F6FD009FA4A1 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D56D2B10F6FD009FA4A1 /* TypeAlias.swift */; };
+		18F7D57A2B10F6FD009FA4A1 /* ANAppSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D56E2B10F6FD009FA4A1 /* ANAppSpinner.swift */; };
+		18F7D57B2B10F6FD009FA4A1 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D56F2B10F6FD009FA4A1 /* GradientView.swift */; };
+		18F7D57C2B10F6FD009FA4A1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5702B10F6FD009FA4A1 /* Player.swift */; };
+		18F7D57D2B10F6FD009FA4A1 /* AppSpinnerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5712B10F6FD009FA4A1 /* AppSpinnerProtocol.swift */; };
+		18F7D5962B10F71A009FA4A1 /* InternalOAuthAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5802B10F71A009FA4A1 /* InternalOAuthAuthenticator.swift */; };
+		18F7D5972B10F71A009FA4A1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5812B10F71A009FA4A1 /* Reachability.swift */; };
+		18F7D5982B10F71A009FA4A1 /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5822B10F71A009FA4A1 /* NetworkCall.swift */; };
+		18F7D5992B10F71A009FA4A1 /* OAuthValidationRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5832B10F71A009FA4A1 /* OAuthValidationRequestInterceptor.swift */; };
+		18F7D59A2B10F71A009FA4A1 /* NetworkCallFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5842B10F71A009FA4A1 /* NetworkCallFactoryProtocol.swift */; };
+		18F7D59B2B10F71A009FA4A1 /* ServerUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5852B10F71A009FA4A1 /* ServerUrl.swift */; };
+		18F7D59C2B10F71A009FA4A1 /* RefreshToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5862B10F71A009FA4A1 /* RefreshToken.swift */; };
+		18F7D59D2B10F71A009FA4A1 /* OAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5872B10F71A009FA4A1 /* OAuthClient.swift */; };
+		18F7D59E2B10F71A009FA4A1 /* NetworkCallFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5882B10F71A009FA4A1 /* NetworkCallFactory.swift */; };
+		18F7D59F2B10F71A009FA4A1 /* ApiErrorResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D58A2B10F71A009FA4A1 /* ApiErrorResponseModel.swift */; };
+		18F7D5A02B10F71A009FA4A1 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D58C2B10F71A009FA4A1 /* Parser.swift */; };
+		18F7D5A12B10F71A009FA4A1 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D58D2B10F71A009FA4A1 /* JsonParser.swift */; };
+		18F7D5A22B10F71A009FA4A1 /* RequestInputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D58F2B10F71A009FA4A1 /* RequestInputModel.swift */; };
+		18F7D5A32B10F71A009FA4A1 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5902B10F71A009FA4A1 /* HTTPMethod.swift */; };
+		18F7D5A42B10F71A009FA4A1 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5912B10F71A009FA4A1 /* RequestProtocol.swift */; };
+		18F7D5A52B10F71A009FA4A1 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5932B10F71A009FA4A1 /* Error.swift */; };
+		18F7D5A62B10F71A009FA4A1 /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5942B10F71A009FA4A1 /* AppErrors.swift */; };
+		18F7D5A72B10F71A009FA4A1 /* ServiiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5952B10F71A009FA4A1 /* ServiiceError.swift */; };
+		18F7D5AA2B10F731009FA4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F7D5A92B10F731009FA4A1 /* Assets.xcassets */; };
+		18F7D5B52B10F75C009FA4A1 /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5AF2B10F75C009FA4A1 /* MovieListViewModel.swift */; };
+		18F7D5B62B10F75C009FA4A1 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5B12B10F75C009FA4A1 /* EpisodeCell.swift */; };
+		18F7D5B72B10F75C009FA4A1 /* SeasonTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5B22B10F75C009FA4A1 /* SeasonTitleCell.swift */; };
+		18F7D5B82B10F75C009FA4A1 /* TvShowDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5B42B10F75C009FA4A1 /* TvShowDetailsVC.swift */; };
+		18F7D5BF2B10F78D009FA4A1 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18F7D5BA2B10F78D009FA4A1 /* Main.strings */; };
+		18F7D5C02B10F78D009FA4A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F7D5BC2B10F78D009FA4A1 /* LaunchScreen.storyboard */; };
+		18F7D5C12B10F78D009FA4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F7D5BE2B10F78D009FA4A1 /* Main.storyboard */; };
+		18F7D5C52B1117CC009FA4A1 /* MockMovieListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5C22B1117CB009FA4A1 /* MockMovieListRepository.swift */; };
+		18F7D5C72B1117CC009FA4A1 /* MovieListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D5C42B1117CC009FA4A1 /* MovieListViewModelTests.swift */; };
+		1D6EB69ADEF7907DDB1CC6E0 /* Pods_StarzPlayCodingChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CCB29E8FA2E7DB83980356 /* Pods_StarzPlayCodingChallengeTests.framework */; };
+		822A62F3A1C9542BC4199B1E /* Pods_StarzPlayCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15955C413EEAD2A82EF2299 /* Pods_StarzPlayCodingChallenge.framework */; };
+		C48FD1169EA5A10E5241CD2E /* Pods_StarzPlayCodingChallenge_StarzPlayCodingChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4006134B7E905D386DD4963 /* Pods_StarzPlayCodingChallenge_StarzPlayCodingChallengeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182982152B10E9F100A2F631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182981F62B10E9ED00A2F631 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182981FD2B10E9ED00A2F631;
+			remoteInfo = StarzPlayCodingChallenge;
+		};
+		1829821F2B10E9F100A2F631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182981F62B10E9ED00A2F631 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182981FD2B10E9ED00A2F631;
+			remoteInfo = StarzPlayCodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1004651C1CE0F1A88777EDBD /* Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests/Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		182981FE2B10E9ED00A2F631 /* StarzPlayCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarzPlayCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182982012B10E9ED00A2F631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182982032B10E9ED00A2F631 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1829820F2B10E9F000A2F631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182982142B10E9F100A2F631 /* StarzPlayCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarzPlayCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182982182B10E9F100A2F631 /* StarzPlayCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarzPlayCodingChallengeTests.swift; sourceTree = "<group>"; };
+		1829821E2B10E9F100A2F631 /* StarzPlayCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarzPlayCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182982222B10E9F100A2F631 /* StarzPlayCodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarzPlayCodingChallengeUITests.swift; sourceTree = "<group>"; };
+		182982242B10E9F100A2F631 /* StarzPlayCodingChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarzPlayCodingChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18F7D53C2B10F6DA009FA4A1 /* MovieListResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListResponseModel.swift; sourceTree = "<group>"; };
+		18F7D53D2B10F6DA009FA4A1 /* SeasonDetailRequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonDetailRequestModel.swift; sourceTree = "<group>"; };
+		18F7D53E2B10F6DA009FA4A1 /* SeasonDetailResponceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonDetailResponceModel.swift; sourceTree = "<group>"; };
+		18F7D53F2B10F6DA009FA4A1 /* MovieListRequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListRequestModel.swift; sourceTree = "<group>"; };
+		18F7D5412B10F6DA009FA4A1 /* MovieListRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListRequest.swift; sourceTree = "<group>"; };
+		18F7D5422B10F6DA009FA4A1 /* MovieListRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListRepository.swift; sourceTree = "<group>"; };
+		18F7D54B2B10F6DA009FA4A1 /* RepositoryFactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryFactoryProtocol.swift; sourceTree = "<group>"; };
+		18F7D54C2B10F6DA009FA4A1 /* RepositoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryProtocol.swift; sourceTree = "<group>"; };
+		18F7D5652B10F6FD009FA4A1 /* StoryBoarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoarding.swift; sourceTree = "<group>"; };
+		18F7D5662B10F6FD009FA4A1 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		18F7D5682B10F6FD009FA4A1 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		18F7D5692B10F6FD009FA4A1 /* UIVeiwController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVeiwController.swift; sourceTree = "<group>"; };
+		18F7D56A2B10F6FD009FA4A1 /* DataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		18F7D56B2B10F6FD009FA4A1 /* Encodeable-Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodeable-Extenstion.swift"; sourceTree = "<group>"; };
+		18F7D56C2B10F6FD009FA4A1 /* StringExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtenstion.swift; sourceTree = "<group>"; };
+		18F7D56D2B10F6FD009FA4A1 /* TypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		18F7D56E2B10F6FD009FA4A1 /* ANAppSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANAppSpinner.swift; sourceTree = "<group>"; };
+		18F7D56F2B10F6FD009FA4A1 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		18F7D5702B10F6FD009FA4A1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		18F7D5712B10F6FD009FA4A1 /* AppSpinnerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSpinnerProtocol.swift; sourceTree = "<group>"; };
+		18F7D5802B10F71A009FA4A1 /* InternalOAuthAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalOAuthAuthenticator.swift; sourceTree = "<group>"; };
+		18F7D5812B10F71A009FA4A1 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		18F7D5822B10F71A009FA4A1 /* NetworkCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCall.swift; sourceTree = "<group>"; };
+		18F7D5832B10F71A009FA4A1 /* OAuthValidationRequestInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthValidationRequestInterceptor.swift; sourceTree = "<group>"; };
+		18F7D5842B10F71A009FA4A1 /* NetworkCallFactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCallFactoryProtocol.swift; sourceTree = "<group>"; };
+		18F7D5852B10F71A009FA4A1 /* ServerUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerUrl.swift; sourceTree = "<group>"; };
+		18F7D5862B10F71A009FA4A1 /* RefreshToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshToken.swift; sourceTree = "<group>"; };
+		18F7D5872B10F71A009FA4A1 /* OAuthClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthClient.swift; sourceTree = "<group>"; };
+		18F7D5882B10F71A009FA4A1 /* NetworkCallFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCallFactory.swift; sourceTree = "<group>"; };
+		18F7D58A2B10F71A009FA4A1 /* ApiErrorResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiErrorResponseModel.swift; sourceTree = "<group>"; };
+		18F7D58C2B10F71A009FA4A1 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		18F7D58D2B10F71A009FA4A1 /* JsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		18F7D58F2B10F71A009FA4A1 /* RequestInputModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestInputModel.swift; sourceTree = "<group>"; };
+		18F7D5902B10F71A009FA4A1 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		18F7D5912B10F71A009FA4A1 /* RequestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		18F7D5932B10F71A009FA4A1 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		18F7D5942B10F71A009FA4A1 /* AppErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppErrors.swift; sourceTree = "<group>"; };
+		18F7D5952B10F71A009FA4A1 /* ServiiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiiceError.swift; sourceTree = "<group>"; };
+		18F7D5A92B10F731009FA4A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F7D5AF2B10F75C009FA4A1 /* MovieListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		18F7D5B12B10F75C009FA4A1 /* EpisodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
+		18F7D5B22B10F75C009FA4A1 /* SeasonTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonTitleCell.swift; sourceTree = "<group>"; };
+		18F7D5B42B10F75C009FA4A1 /* TvShowDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TvShowDetailsVC.swift; sourceTree = "<group>"; };
+		18F7D5BB2B10F78D009FA4A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		18F7D5BD2B10F78D009FA4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F7D5BE2B10F78D009FA4A1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18F7D5C22B1117CB009FA4A1 /* MockMovieListRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockMovieListRepository.swift; sourceTree = "<group>"; };
+		18F7D5C42B1117CC009FA4A1 /* MovieListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewModelTests.swift; sourceTree = "<group>"; };
+		377248CD241F6A9261163648 /* Pods-StarzPlayCodingChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlayCodingChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-StarzPlayCodingChallengeTests/Pods-StarzPlayCodingChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		46E5661DBD85F402D129251E /* Pods-StarzPlayCodingChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlayCodingChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-StarzPlayCodingChallengeTests/Pods-StarzPlayCodingChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		647BA00B1344B695159F3747 /* Pods-StarzPlayCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlayCodingChallenge.debug.xcconfig"; path = "Target Support Files/Pods-StarzPlayCodingChallenge/Pods-StarzPlayCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		B4006134B7E905D386DD4963 /* Pods_StarzPlayCodingChallenge_StarzPlayCodingChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarzPlayCodingChallenge_StarzPlayCodingChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8F3459200A7EE9733917AB /* Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests/Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C15955C413EEAD2A82EF2299 /* Pods_StarzPlayCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarzPlayCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CCB29E8FA2E7DB83980356 /* Pods_StarzPlayCodingChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarzPlayCodingChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92173BB9439F9BBDF8AA61E /* Pods-StarzPlayCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarzPlayCodingChallenge.release.xcconfig"; path = "Target Support Files/Pods-StarzPlayCodingChallenge/Pods-StarzPlayCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182981FB2B10E9ED00A2F631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822A62F3A1C9542BC4199B1E /* Pods_StarzPlayCodingChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182982112B10E9F100A2F631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6EB69ADEF7907DDB1CC6E0 /* Pods_StarzPlayCodingChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1829821B2B10E9F100A2F631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48FD1169EA5A10E5241CD2E /* Pods_StarzPlayCodingChallenge_StarzPlayCodingChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182981F52B10E9ED00A2F631 = {
+			isa = PBXGroup;
+			children = (
+				182982002B10E9ED00A2F631 /* StarzPlayCodingChallenge */,
+				182982172B10E9F100A2F631 /* StarzPlayCodingChallengeTests */,
+				182982212B10E9F100A2F631 /* StarzPlayCodingChallengeUITests */,
+				182981FF2B10E9ED00A2F631 /* Products */,
+				88EC6D594A1A41C360A5EF53 /* Pods */,
+				EF66CD7BA1FACECBC7FA7AC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		182981FF2B10E9ED00A2F631 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182981FE2B10E9ED00A2F631 /* StarzPlayCodingChallenge.app */,
+				182982142B10E9F100A2F631 /* StarzPlayCodingChallengeTests.xctest */,
+				1829821E2B10E9F100A2F631 /* StarzPlayCodingChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182982002B10E9ED00A2F631 /* StarzPlayCodingChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5AB2B10F748009FA4A1 /* UX */,
+				18F7D5B92B10F78D009FA4A1 /* UI */,
+				18F7D5A82B10F731009FA4A1 /* Assets */,
+				18F7D57E2B10F71A009FA4A1 /* Networking */,
+				18F7D5642B10F6FD009FA4A1 /* Utils */,
+				18F7D5392B10F6DA009FA4A1 /* Repositories */,
+				18F7D5382B10F6B2009FA4A1 /* Delegates */,
+				1829820F2B10E9F000A2F631 /* Info.plist */,
+			);
+			path = StarzPlayCodingChallenge;
+			sourceTree = "<group>";
+		};
+		182982172B10E9F100A2F631 /* StarzPlayCodingChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5C22B1117CB009FA4A1 /* MockMovieListRepository.swift */,
+				18F7D5C42B1117CC009FA4A1 /* MovieListViewModelTests.swift */,
+				182982182B10E9F100A2F631 /* StarzPlayCodingChallengeTests.swift */,
+			);
+			path = StarzPlayCodingChallengeTests;
+			sourceTree = "<group>";
+		};
+		182982212B10E9F100A2F631 /* StarzPlayCodingChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				182982222B10E9F100A2F631 /* StarzPlayCodingChallengeUITests.swift */,
+				182982242B10E9F100A2F631 /* StarzPlayCodingChallengeUITestsLaunchTests.swift */,
+			);
+			path = StarzPlayCodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+		18F7D5382B10F6B2009FA4A1 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				182982012B10E9ED00A2F631 /* AppDelegate.swift */,
+				182982032B10E9ED00A2F631 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		18F7D5392B10F6DA009FA4A1 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D53A2B10F6DA009FA4A1 /* MovieListRepo */,
+				18F7D54A2B10F6DA009FA4A1 /* RepoFactory */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		18F7D53A2B10F6DA009FA4A1 /* MovieListRepo */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D53B2B10F6DA009FA4A1 /* Models */,
+				18F7D5402B10F6DA009FA4A1 /* Requests */,
+				18F7D5422B10F6DA009FA4A1 /* MovieListRepository.swift */,
+			);
+			path = MovieListRepo;
+			sourceTree = "<group>";
+		};
+		18F7D53B2B10F6DA009FA4A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D53C2B10F6DA009FA4A1 /* MovieListResponseModel.swift */,
+				18F7D53D2B10F6DA009FA4A1 /* SeasonDetailRequestModel.swift */,
+				18F7D53E2B10F6DA009FA4A1 /* SeasonDetailResponceModel.swift */,
+				18F7D53F2B10F6DA009FA4A1 /* MovieListRequestModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18F7D5402B10F6DA009FA4A1 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5412B10F6DA009FA4A1 /* MovieListRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		18F7D54A2B10F6DA009FA4A1 /* RepoFactory */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D54B2B10F6DA009FA4A1 /* RepositoryFactoryProtocol.swift */,
+				18F7D54C2B10F6DA009FA4A1 /* RepositoryProtocol.swift */,
+			);
+			path = RepoFactory;
+			sourceTree = "<group>";
+		};
+		18F7D5642B10F6FD009FA4A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5652B10F6FD009FA4A1 /* StoryBoarding.swift */,
+				18F7D5662B10F6FD009FA4A1 /* Common.swift */,
+				18F7D5672B10F6FD009FA4A1 /* Extensions */,
+				18F7D56D2B10F6FD009FA4A1 /* TypeAlias.swift */,
+				18F7D56E2B10F6FD009FA4A1 /* ANAppSpinner.swift */,
+				18F7D56F2B10F6FD009FA4A1 /* GradientView.swift */,
+				18F7D5702B10F6FD009FA4A1 /* Player.swift */,
+				18F7D5712B10F6FD009FA4A1 /* AppSpinnerProtocol.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		18F7D5672B10F6FD009FA4A1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5682B10F6FD009FA4A1 /* Label.swift */,
+				18F7D5692B10F6FD009FA4A1 /* UIVeiwController.swift */,
+				18F7D56A2B10F6FD009FA4A1 /* DataExtension.swift */,
+				18F7D56B2B10F6FD009FA4A1 /* Encodeable-Extenstion.swift */,
+				18F7D56C2B10F6FD009FA4A1 /* StringExtenstion.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		18F7D57E2B10F71A009FA4A1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D57F2B10F71A009FA4A1 /* CommonNetwork */,
+				18F7D5892B10F71A009FA4A1 /* Response */,
+				18F7D58B2B10F71A009FA4A1 /* Parser */,
+				18F7D58E2B10F71A009FA4A1 /* Request */,
+				18F7D5922B10F71A009FA4A1 /* Errors */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		18F7D57F2B10F71A009FA4A1 /* CommonNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5802B10F71A009FA4A1 /* InternalOAuthAuthenticator.swift */,
+				18F7D5812B10F71A009FA4A1 /* Reachability.swift */,
+				18F7D5822B10F71A009FA4A1 /* NetworkCall.swift */,
+				18F7D5832B10F71A009FA4A1 /* OAuthValidationRequestInterceptor.swift */,
+				18F7D5842B10F71A009FA4A1 /* NetworkCallFactoryProtocol.swift */,
+				18F7D5852B10F71A009FA4A1 /* ServerUrl.swift */,
+				18F7D5862B10F71A009FA4A1 /* RefreshToken.swift */,
+				18F7D5872B10F71A009FA4A1 /* OAuthClient.swift */,
+				18F7D5882B10F71A009FA4A1 /* NetworkCallFactory.swift */,
+			);
+			path = CommonNetwork;
+			sourceTree = "<group>";
+		};
+		18F7D5892B10F71A009FA4A1 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D58A2B10F71A009FA4A1 /* ApiErrorResponseModel.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		18F7D58B2B10F71A009FA4A1 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D58C2B10F71A009FA4A1 /* Parser.swift */,
+				18F7D58D2B10F71A009FA4A1 /* JsonParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		18F7D58E2B10F71A009FA4A1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D58F2B10F71A009FA4A1 /* RequestInputModel.swift */,
+				18F7D5902B10F71A009FA4A1 /* HTTPMethod.swift */,
+				18F7D5912B10F71A009FA4A1 /* RequestProtocol.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		18F7D5922B10F71A009FA4A1 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5932B10F71A009FA4A1 /* Error.swift */,
+				18F7D5942B10F71A009FA4A1 /* AppErrors.swift */,
+				18F7D5952B10F71A009FA4A1 /* ServiiceError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		18F7D5A82B10F731009FA4A1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5A92B10F731009FA4A1 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		18F7D5AB2B10F748009FA4A1 /* UX */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5AC2B10F75C009FA4A1 /* TvShowDetailsVC */,
+			);
+			path = UX;
+			sourceTree = "<group>";
+		};
+		18F7D5AC2B10F75C009FA4A1 /* TvShowDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5AD2B10F75C009FA4A1 /* MovieDetail */,
+			);
+			path = TvShowDetailsVC;
+			sourceTree = "<group>";
+		};
+		18F7D5AD2B10F75C009FA4A1 /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5AE2B10F75C009FA4A1 /* ViewModel */,
+				18F7D5B02B10F75C009FA4A1 /* Cell */,
+				18F7D5B32B10F75C009FA4A1 /* ViewController */,
+			);
+			path = MovieDetail;
+			sourceTree = "<group>";
+		};
+		18F7D5AE2B10F75C009FA4A1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5AF2B10F75C009FA4A1 /* MovieListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18F7D5B02B10F75C009FA4A1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5B12B10F75C009FA4A1 /* EpisodeCell.swift */,
+				18F7D5B22B10F75C009FA4A1 /* SeasonTitleCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		18F7D5B32B10F75C009FA4A1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5B42B10F75C009FA4A1 /* TvShowDetailsVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		18F7D5B92B10F78D009FA4A1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D5BA2B10F78D009FA4A1 /* Main.strings */,
+				18F7D5BC2B10F78D009FA4A1 /* LaunchScreen.storyboard */,
+				18F7D5BE2B10F78D009FA4A1 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		88EC6D594A1A41C360A5EF53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				647BA00B1344B695159F3747 /* Pods-StarzPlayCodingChallenge.debug.xcconfig */,
+				D92173BB9439F9BBDF8AA61E /* Pods-StarzPlayCodingChallenge.release.xcconfig */,
+				BC8F3459200A7EE9733917AB /* Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests.debug.xcconfig */,
+				1004651C1CE0F1A88777EDBD /* Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests.release.xcconfig */,
+				46E5661DBD85F402D129251E /* Pods-StarzPlayCodingChallengeTests.debug.xcconfig */,
+				377248CD241F6A9261163648 /* Pods-StarzPlayCodingChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF66CD7BA1FACECBC7FA7AC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C15955C413EEAD2A82EF2299 /* Pods_StarzPlayCodingChallenge.framework */,
+				B4006134B7E905D386DD4963 /* Pods_StarzPlayCodingChallenge_StarzPlayCodingChallengeUITests.framework */,
+				C3CCB29E8FA2E7DB83980356 /* Pods_StarzPlayCodingChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182981FD2B10E9ED00A2F631 /* StarzPlayCodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182982282B10E9F100A2F631 /* Build configuration list for PBXNativeTarget "StarzPlayCodingChallenge" */;
+			buildPhases = (
+				743B3A2B51258D29F239D876 /* [CP] Check Pods Manifest.lock */,
+				182981FA2B10E9ED00A2F631 /* Sources */,
+				182981FB2B10E9ED00A2F631 /* Frameworks */,
+				182981FC2B10E9ED00A2F631 /* Resources */,
+				FE01D2EBF9820B6DBEE55621 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarzPlayCodingChallenge;
+			productName = StarzPlayCodingChallenge;
+			productReference = 182981FE2B10E9ED00A2F631 /* StarzPlayCodingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182982132B10E9F100A2F631 /* StarzPlayCodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1829822B2B10E9F100A2F631 /* Build configuration list for PBXNativeTarget "StarzPlayCodingChallengeTests" */;
+			buildPhases = (
+				E635224B30CD8593E4CA197F /* [CP] Check Pods Manifest.lock */,
+				182982102B10E9F100A2F631 /* Sources */,
+				182982112B10E9F100A2F631 /* Frameworks */,
+				182982122B10E9F100A2F631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182982162B10E9F100A2F631 /* PBXTargetDependency */,
+			);
+			name = StarzPlayCodingChallengeTests;
+			productName = StarzPlayCodingChallengeTests;
+			productReference = 182982142B10E9F100A2F631 /* StarzPlayCodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1829821D2B10E9F100A2F631 /* StarzPlayCodingChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1829822E2B10E9F100A2F631 /* Build configuration list for PBXNativeTarget "StarzPlayCodingChallengeUITests" */;
+			buildPhases = (
+				1E297C62B272A62C98A23E7F /* [CP] Check Pods Manifest.lock */,
+				1829821A2B10E9F100A2F631 /* Sources */,
+				1829821B2B10E9F100A2F631 /* Frameworks */,
+				1829821C2B10E9F100A2F631 /* Resources */,
+				7053980C93300BE882EA948C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182982202B10E9F100A2F631 /* PBXTargetDependency */,
+			);
+			name = StarzPlayCodingChallengeUITests;
+			productName = StarzPlayCodingChallengeUITests;
+			productReference = 1829821E2B10E9F100A2F631 /* StarzPlayCodingChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182981F62B10E9ED00A2F631 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					182981FD2B10E9ED00A2F631 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					182982132B10E9F100A2F631 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 182981FD2B10E9ED00A2F631;
+					};
+					1829821D2B10E9F100A2F631 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 182981FD2B10E9ED00A2F631;
+					};
+				};
+			};
+			buildConfigurationList = 182981F92B10E9ED00A2F631 /* Build configuration list for PBXProject "StarzPlayCodingChallenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182981F52B10E9ED00A2F631;
+			productRefGroup = 182981FF2B10E9ED00A2F631 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182981FD2B10E9ED00A2F631 /* StarzPlayCodingChallenge */,
+				182982132B10E9F100A2F631 /* StarzPlayCodingChallengeTests */,
+				1829821D2B10E9F100A2F631 /* StarzPlayCodingChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182981FC2B10E9ED00A2F631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F7D5C02B10F78D009FA4A1 /* LaunchScreen.storyboard in Resources */,
+				18F7D5AA2B10F731009FA4A1 /* Assets.xcassets in Resources */,
+				18F7D5BF2B10F78D009FA4A1 /* Main.strings in Resources */,
+				18F7D5C12B10F78D009FA4A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182982122B10E9F100A2F631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1829821C2B10E9F100A2F631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E297C62B272A62C98A23E7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7053980C93300BE882EA948C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests/Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests/Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests/Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		743B3A2B51258D29F239D876 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarzPlayCodingChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E635224B30CD8593E4CA197F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarzPlayCodingChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE01D2EBF9820B6DBEE55621 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarzPlayCodingChallenge/Pods-StarzPlayCodingChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarzPlayCodingChallenge/Pods-StarzPlayCodingChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarzPlayCodingChallenge/Pods-StarzPlayCodingChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182981FA2B10E9ED00A2F631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F7D57C2B10F6FD009FA4A1 /* Player.swift in Sources */,
+				18F7D57A2B10F6FD009FA4A1 /* ANAppSpinner.swift in Sources */,
+				18F7D5562B10F6DB009FA4A1 /* SeasonDetailResponceModel.swift in Sources */,
+				18F7D5B62B10F75C009FA4A1 /* EpisodeCell.swift in Sources */,
+				18F7D5572B10F6DB009FA4A1 /* MovieListRequestModel.swift in Sources */,
+				18F7D5732B10F6FD009FA4A1 /* Common.swift in Sources */,
+				18F7D55F2B10F6DB009FA4A1 /* RepositoryProtocol.swift in Sources */,
+				18F7D59A2B10F71A009FA4A1 /* NetworkCallFactoryProtocol.swift in Sources */,
+				18F7D5A32B10F71A009FA4A1 /* HTTPMethod.swift in Sources */,
+				18F7D5982B10F71A009FA4A1 /* NetworkCall.swift in Sources */,
+				18F7D5772B10F6FD009FA4A1 /* Encodeable-Extenstion.swift in Sources */,
+				18F7D5B72B10F75C009FA4A1 /* SeasonTitleCell.swift in Sources */,
+				18F7D5962B10F71A009FA4A1 /* InternalOAuthAuthenticator.swift in Sources */,
+				18F7D59C2B10F71A009FA4A1 /* RefreshToken.swift in Sources */,
+				18F7D5A72B10F71A009FA4A1 /* ServiiceError.swift in Sources */,
+				18F7D5762B10F6FD009FA4A1 /* DataExtension.swift in Sources */,
+				18F7D5792B10F6FD009FA4A1 /* TypeAlias.swift in Sources */,
+				18F7D5782B10F6FD009FA4A1 /* StringExtenstion.swift in Sources */,
+				18F7D5B52B10F75C009FA4A1 /* MovieListViewModel.swift in Sources */,
+				18F7D5A52B10F71A009FA4A1 /* Error.swift in Sources */,
+				18F7D59D2B10F71A009FA4A1 /* OAuthClient.swift in Sources */,
+				18F7D5752B10F6FD009FA4A1 /* UIVeiwController.swift in Sources */,
+				18F7D59E2B10F71A009FA4A1 /* NetworkCallFactory.swift in Sources */,
+				18F7D57D2B10F6FD009FA4A1 /* AppSpinnerProtocol.swift in Sources */,
+				18F7D57B2B10F6FD009FA4A1 /* GradientView.swift in Sources */,
+				182982022B10E9ED00A2F631 /* AppDelegate.swift in Sources */,
+				182982042B10E9ED00A2F631 /* SceneDelegate.swift in Sources */,
+				18F7D5592B10F6DB009FA4A1 /* MovieListRepository.swift in Sources */,
+				18F7D59B2B10F71A009FA4A1 /* ServerUrl.swift in Sources */,
+				18F7D5A22B10F71A009FA4A1 /* RequestInputModel.swift in Sources */,
+				18F7D5552B10F6DB009FA4A1 /* SeasonDetailRequestModel.swift in Sources */,
+				18F7D59F2B10F71A009FA4A1 /* ApiErrorResponseModel.swift in Sources */,
+				18F7D5B82B10F75C009FA4A1 /* TvShowDetailsVC.swift in Sources */,
+				18F7D5A12B10F71A009FA4A1 /* JsonParser.swift in Sources */,
+				18F7D5992B10F71A009FA4A1 /* OAuthValidationRequestInterceptor.swift in Sources */,
+				18F7D5582B10F6DB009FA4A1 /* MovieListRequest.swift in Sources */,
+				18F7D5A62B10F71A009FA4A1 /* AppErrors.swift in Sources */,
+				18F7D5722B10F6FD009FA4A1 /* StoryBoarding.swift in Sources */,
+				18F7D55E2B10F6DB009FA4A1 /* RepositoryFactoryProtocol.swift in Sources */,
+				18F7D5A42B10F71A009FA4A1 /* RequestProtocol.swift in Sources */,
+				18F7D5742B10F6FD009FA4A1 /* Label.swift in Sources */,
+				18F7D5972B10F71A009FA4A1 /* Reachability.swift in Sources */,
+				18F7D5A02B10F71A009FA4A1 /* Parser.swift in Sources */,
+				18F7D5542B10F6DB009FA4A1 /* MovieListResponseModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182982102B10E9F100A2F631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F7D5C52B1117CC009FA4A1 /* MockMovieListRepository.swift in Sources */,
+				182982192B10E9F100A2F631 /* StarzPlayCodingChallengeTests.swift in Sources */,
+				18F7D5C72B1117CC009FA4A1 /* MovieListViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1829821A2B10E9F100A2F631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182982232B10E9F100A2F631 /* StarzPlayCodingChallengeUITests.swift in Sources */,
+				182982252B10E9F100A2F631 /* StarzPlayCodingChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182982162B10E9F100A2F631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182981FD2B10E9ED00A2F631 /* StarzPlayCodingChallenge */;
+			targetProxy = 182982152B10E9F100A2F631 /* PBXContainerItemProxy */;
+		};
+		182982202B10E9F100A2F631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182981FD2B10E9ED00A2F631 /* StarzPlayCodingChallenge */;
+			targetProxy = 1829821F2B10E9F100A2F631 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F7D5BA2B10F78D009FA4A1 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F7D5BB2B10F78D009FA4A1 /* en */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		18F7D5BC2B10F78D009FA4A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F7D5BD2B10F78D009FA4A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182982262B10E9F100A2F631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182982272B10E9F100A2F631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182982292B10E9F100A2F631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647BA00B1344B695159F3747 /* Pods-StarzPlayCodingChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarzPlayCodingChallenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StarzPlay;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarzPlay.CodingChallenge.StarzPlayCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1829822A2B10E9F100A2F631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D92173BB9439F9BBDF8AA61E /* Pods-StarzPlayCodingChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarzPlayCodingChallenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StarzPlay;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarzPlay.CodingChallenge.StarzPlayCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1829822C2B10E9F100A2F631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E5661DBD85F402D129251E /* Pods-StarzPlayCodingChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarzPlay.CodingChallenge.StarzPlayCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarzPlayCodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarzPlayCodingChallenge";
+			};
+			name = Debug;
+		};
+		1829822D2B10E9F100A2F631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 377248CD241F6A9261163648 /* Pods-StarzPlayCodingChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarzPlay.CodingChallenge.StarzPlayCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarzPlayCodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarzPlayCodingChallenge";
+			};
+			name = Release;
+		};
+		1829822F2B10E9F100A2F631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC8F3459200A7EE9733917AB /* Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarzPlay.CodingChallenge.StarzPlayCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarzPlayCodingChallenge;
+			};
+			name = Debug;
+		};
+		182982302B10E9F100A2F631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1004651C1CE0F1A88777EDBD /* Pods-StarzPlayCodingChallenge-StarzPlayCodingChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarzPlay.CodingChallenge.StarzPlayCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarzPlayCodingChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182981F92B10E9ED00A2F631 /* Build configuration list for PBXProject "StarzPlayCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182982262B10E9F100A2F631 /* Debug */,
+				182982272B10E9F100A2F631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182982282B10E9F100A2F631 /* Build configuration list for PBXNativeTarget "StarzPlayCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182982292B10E9F100A2F631 /* Debug */,
+				1829822A2B10E9F100A2F631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1829822B2B10E9F100A2F631 /* Build configuration list for PBXNativeTarget "StarzPlayCodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1829822C2B10E9F100A2F631 /* Debug */,
+				1829822D2B10E9F100A2F631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1829822E2B10E9F100A2F631 /* Build configuration list for PBXNativeTarget "StarzPlayCodingChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1829822F2B10E9F100A2F631 /* Debug */,
+				182982302B10E9F100A2F631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182981F62B10E9ED00A2F631 /* Project object */;
+}

@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; configuration.title = "  Play"; ObjectID = "6tl-oC-dAP"; */
+"6tl-oC-dAP.configuration.title" = "  Play";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6tl-oC-dAP"; */
+"6tl-oC-dAP.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ClN-rw-nIG"; */
+"ClN-rw-nIG.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = " Trailer"; ObjectID = "OP3-xF-dM8"; */
+"OP3-xF-dM8.configuration.title" = " Trailer";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "OP3-xF-dM8"; */
+"OP3-xF-dM8.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "i don't like it"; ObjectID = "Ok1-g8-tVq"; */
+"Ok1-g8-tVq.text" = "i don't like it";
+
+/* Class = "UITabBarItem"; title = "TV Shows"; ObjectID = "U4M-cI-OPV"; */
+"U4M-cI-OPV.title" = "TV Shows";
+
+/* Class = "UITabBarItem"; title = "Movies"; ObjectID = "ZB8-Oc-u06"; */
+"ZB8-Oc-u06.title" = "Movies";
+
+/* Class = "UILabel"; text = "i like it"; ObjectID = "iGS-1w-VYn"; */
+"iGS-1w-VYn.text" = "i like it";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mIA-g6-b7N"; */
+"mIA-g6-b7N.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Watchlist"; ObjectID = "r4x-Bs-abi"; */
+"r4x-Bs-abi.text" = "Watchlist";
+
+/* Class = "UILabel"; text = "In his answer if the length of the string the user entered is less then the length of the whatever text you decide to use for ... Readmore \n"; ObjectID = "rB0-Vi-LGg"; */
+"rB0-Vi-LGg.text" = "In his answer if the length of the string the user entered is less then the length of the whatever text you decide to use for ... Readmore \n";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "znn-x8-KP1"; */
+"znn-x8-KP1.normalTitle" = "Button";
